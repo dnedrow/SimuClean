@@ -4,11 +4,6 @@ branches:
   - master
 matrix:
   include:
-    - os: linux
-      dist: trusty
-      sudo: required
-      services: docker
-      env: DOCKER_IMAGE=ubuntu:16.04 SWIFT_SNAPSHOT=4.2.1
     - os: osx
       osx_image: xcode10.1
       sudo: required
